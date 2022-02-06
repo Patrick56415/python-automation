@@ -3,13 +3,13 @@ import time
 
 print("press Ctrl+C to close")
 
-#gehe zum audition icon (desktop)
+#go to audition icon (desktop)
 pyautogui.size()
 (1920, 1080)
 pyautogui.moveTo(953, 872)
 pyautogui.click(clicks=2)
 
-#multitrack session starten
+#start multitrack session
 time.sleep(5)
 pyautogui.moveTo(200, 60)
 pyautogui.click()
